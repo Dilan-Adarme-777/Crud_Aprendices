@@ -1,14 +1,10 @@
 [
-    {"nombre": "juan",
-    "apellido": "perez",
-    "edad": 25,
-    "correo": "juan@example.com",
-    "avatar": "imagenes/juan.jpg"
-},{
+  {
+    "dni": "2",
     "nombre": "luisa",
     "apellido": "gomez",
     "edad": 25,
     "correo": "luisa@example.com",
     "avatar": "imagenes/luisa.jpg"
-}
+  }
 ]
