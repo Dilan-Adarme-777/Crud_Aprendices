@@ -1,0 +1,18 @@
+[
+  {
+    "dni": 1,
+    "nombre": "luis",
+    "apellido": "gomez",
+    "edad": 25,
+    "correo": "luis@example.com",
+    "avatar": "sin imagen"
+  },
+  {
+    "dni": "2",
+    "nombre": "Pepe",
+    "apellido": "Perez",
+    "edad": "15",
+    "correo": "pp@sena.edu.co",
+    "avatar": "/misImagenes/1787865166031.png"
+  }
+]
