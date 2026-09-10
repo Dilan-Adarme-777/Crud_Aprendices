@@ -17,6 +17,11 @@ const Token = jwtoken.sing()
 const directorioImagenes = path.join(__dirname, 'misImagenes');
 const rutaArchivoJson = path.join(__dirname, 'lista_datos.json');
 
+const usuarioValido = {
+  usuario: 'johan',
+  clave: '12345'
+};
+
 if (!fs.existsSync(directorioImagenes)) {
   fs.mkdirSync(directorioImagenes, { recursive: true });
 }
@@ -196,3 +201,4 @@ app.use(manejadorErrores);
 app.listen(PORT, () => {
   console.log(`Servidor funcionando en http://localhost:${PORT}`);
 });
+
