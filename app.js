@@ -1,5 +1,4 @@
 const express = require('express');
-<<<<<<< HEAD
 const app = express();
 require('dotenv/config');
 const port = process.env.PUERTO || 4000;
@@ -13,7 +12,6 @@ const path = require('path');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 require('dotenv/config');
->>>>>>> 0389981
 
 const app = express();
 const PORT = process.env.PORT || 3000;
