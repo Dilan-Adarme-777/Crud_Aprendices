@@ -8,9 +8,9 @@ require('dotenv/config');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const registroMiddleware = require('./middleware/registroMiddleware');
-const { validarCampos } = require('./validacion/validar');
-const autenticar = require('./middleware/autenticador');
+const registroMiddleware = require('./src/middleware/registroMiddleware');
+const { validarCampos } = require('./src/validaciones/validar');
+const autenticar = require('./src/middleware/autenticador');
 const manejadorErrores = require('./manejadorErrores');
 const Token = jwtoken.sing()
 
